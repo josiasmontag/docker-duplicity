@@ -1,4 +1,4 @@
-FROM ghcr.io/tecnativa/docker-duplicity:3.3.0 AS mysql
+FROM ghcr.io/tecnativa/docker-duplicity:3.3.1 AS mysql
 
 RUN apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.13/main mariadb-client mariadb-connector-c \
     && mysql --version \
